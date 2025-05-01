@@ -1,15 +1,16 @@
-const promis=new Promise(function(resolve,reject){
+//Creat promise sample project
+const promise=new Promise(function(resolve,reject){
     let success=true;
     if(success===true){
-        resolve("operation succesfull");
+        console.log("operation is successful");
     }else{
-        reject("operation is failure");
+        console.log("operation is failed");
     }
 });
-promis
+promise
 .then(function(result){
-console.log(result)
+    console.log(error);
 })
 .catch(function(error){
-    console.log(error)
+    console.log(error);
 })
